@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gestion.d.une.ecole.primaire.ProfesseurController">
+   <children>
+      <AnchorPane prefHeight="35.0" prefWidth="800.0" style="-fx-background-color: #2196f3;">
+         <children>
+            <ImageView fx:id="male" fitHeight="35.0" fitWidth="35.0" layoutX="383.0" onMouseClicked="#gohome" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="383.0" AnchorPane.rightAnchor="382.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../../../../../icons/icons8_Businessman_96px.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btn_info" fitHeight="25.0" fitWidth="32.0" layoutX="445.0" layoutY="5.0" onMouseClicked="#goinfo" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="5.0">
+               <image>
+                  <Image url="@../../../../../icons/icons8_Info_104px.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btn_note" fitHeight="25.0" fitWidth="32.0" layoutX="331.0" layoutY="5.0" onMouseClicked="#gonote" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../icons/icons8_Grades_100px_1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Close" fitHeight="25.0" fitWidth="32.0" layoutX="771.0" layoutY="5.0" onMouseClicked="#close" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../icons/icons8_Shutdown_96px.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="logout" fitHeight="35.0" fitWidth="35.0" layoutX="13.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="760.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../../../../../icons/Logout-128.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="6.0" layoutY="50.0" prefHeight="461.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="40.0" />
+   </children>
+</AnchorPane>

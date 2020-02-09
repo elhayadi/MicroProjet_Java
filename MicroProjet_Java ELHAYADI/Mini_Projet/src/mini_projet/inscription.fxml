@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="356.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mini_projet.InscriptionController">
+   <children>
+      <Label layoutX="148.0" layoutY="12.0" text="Sign In" textFill="#2298f2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nom" alignment="CENTER" layoutX="54.0" layoutY="57.0" prefHeight="26.0" prefWidth="250.0" promptText="Nom" style="-fx-border-color: #039ed3;" />
+      <TextField fx:id="prenom" alignment="CENTER" layoutX="53.0" layoutY="91.0" prefHeight="26.0" prefWidth="250.0" promptText="Prénom" style="-fx-border-color: #039ed3;" />
+      <TextField fx:id="niveau" alignment="CENTER" layoutX="53.0" layoutY="158.0" prefHeight="26.0" prefWidth="250.0" promptText="Niveau" style="-fx-border-color: #039ed3;" />
+      <ImageView fitHeight="40.0" fitWidth="311.0" layoutX="23.0" layoutY="193.0" opacity="0.21" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/1f7908a389d4ca75bd63a1d8674aca92.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="tnom" alignment="CENTER" layoutX="54.0" layoutY="276.0" prefHeight="26.0" prefWidth="250.0" promptText="Nom Tuteur" style="-fx-border-color: #039ed3;" />
+      <TextField fx:id="tprenom" alignment="CENTER" layoutX="53.0" layoutY="310.0" prefHeight="26.0" prefWidth="250.0" promptText="Prénom Tuteur" style="-fx-border-color: #039ed3;" />
+      <TextField fx:id="t_tel" alignment="CENTER" layoutX="53.0" layoutY="345.0" prefHeight="26.0" prefWidth="250.0" promptText="Téléphone" style="-fx-border-color: #039ed3;" />
+      <TextField fx:id="t_profession" alignment="CENTER" layoutX="52.0" layoutY="380.0" prefHeight="26.0" prefWidth="250.0" promptText="Profession" style="-fx-border-color: #039ed3;" />
+      <ImageView fitHeight="77.0" fitWidth="61.0" layoutX="147.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/icons8_Valet_96px.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="age" alignment="CENTER" layoutX="52.0" layoutY="125.0" prefHeight="26.0" prefWidth="250.0" promptText="Age" style="-fx-border-color: #039ed3;" />
+      <TextField fx:id="relation" alignment="CENTER" layoutX="52.0" layoutY="414.0" prefHeight="26.0" prefWidth="250.0" promptText="Relation avec etudiant" style="-fx-border-color: #039ed3;" />
+      <Button fx:id="signin" layoutX="151.0" layoutY="452.0" mnemonicParsing="false" onAction="#opennewcop" text="S'inscrire" />
+   </children>
+</AnchorPane>
